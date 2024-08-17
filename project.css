@@ -1,0 +1,284 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#first-fluid {
+    background-color: #00468b;
+    color: #fff;
+}
+
+.brand,
+.brand:hover {
+    background-color: #00468b;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.image1 {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bf {
+    position: relative;
+    width: 100%;
+    margin: 0px 21px;
+    padding: 1px 37px;
+}
+
+.bf:before {
+    content: "";
+    background: #00468b;
+    position: absolute;
+    display: block;
+    left: 1rem;
+    top: -1rem;
+    width: 25%;
+    height: 40%;
+    z-index: -1;
+}
+
+.bf:after {
+    content: "";
+    position: absolute;
+    background: #616161;
+    bottom: -1.5rem;
+    right: 0.5rem;
+    height: 25%;
+    width: 25%;
+    z-index: -1;
+    display: block;
+}
+
+#card {
+    width: 360px;
+    background-color: rgba(0, 0, 28, 0.55);
+    color: rgb(255, 255, 255);
+    /* height: 194px; */
+    line-height: 19px;
+    letter-spacing: 0px;
+    /* min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none; */
+    /* transform-origin: 50% 50%; */
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    border-radius: 0px;
+    min-height: 0px;
+}
+
+#card h5 {
+    line-height: 15px;
+}
+
+#card p {
+    margin-top: 17px;
+}
+
+.bfabout {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: 164px;
+}
+.img4{
+    object-fit: cover;
+}
+
+.bfabout:before {
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 370px;
+    z-index: -1;
+    background: #616161;
+    left: -1.9rem;
+    top: -1rem;
+}
+
+.img3 {
+    width: 300px;
+    height: 400px;
+}
+
+.butt {
+    background-color: #00468b;
+}
+
+.butt:hover {
+    background-color: #043b72;
+}
+
+.button {
+    background-color: #00468b;
+    width: 145px;
+}
+
+.button:hover {
+    background: white;
+    color: #00468b;
+    border-color: #00468b;
+}
+
+.section {
+    background-color: #f5f5f5 !important;
+}
+
+/* .line {
+    margin: auto;
+    background-color: yellowgreen;
+    height: 40px;
+    width: 20px;
+} */
+
+#container {
+    background: url(default-square-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#carasoulcontainer {
+    background-color: #00468b
+}
+
+#h3 {
+    color: white;
+}
+
+#imgbeforefooter {
+    background: url(default-square-img.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+
+.keep {
+    padding: 0.5%;
+    background: #00468b;
+    color: white;
+}
+
+.copyright {
+    border-top: 2px;
+    width: 70%;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.lane {
+    width: 795px;
+    margin: auto;
+}
+
+#card h2,
+#card H5,
+#card p {
+    padding: 0px 15px !important;
+}
+
+.homecard {
+    border-radius: 0px;
+    width: 270px;
+    gap: 0px;
+}
+
+.homecard h5 {
+    height: 46px;
+}
+
+.homecard p {
+    height: 120px;
+}
+
+.icon {
+    font-size: xx-large;
+    border: 3px solid #00468b;
+    border-radius: 100%;
+    width: 26%;
+    padding: 10px;
+}
+
+.icon-i {
+    font-size: 40px;
+}
+
+.fluidicon {
+    font-size: xx-large;
+}
+
+.morning::before {
+    content: "";
+    position: absolute;
+    width: 35%;
+    display: block;
+    border-top: 3px solid #00468b;
+    left: 0;
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    border-bottom: 3px solid #00468b;
+}
+
+.founder::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    border-bottom: 3px solid #00468b;
+}
+
+.morning {
+    position: relative;
+    width: 311px;
+    margin: auto;
+}
+
+@media screen and (max-width: 575px) {
+    .bf {
+        margin: auto;
+        padding: 0px;
+    }
+
+    .bf:before {
+        left: -15px;
+    }
+
+    .bf:after {
+        right: -15px;
+    }
+
+    #card {
+        width: 100%;
+    }
+
+    .bfabout {
+        width: 100%;
+        margin-left: auto;
+        padding-left: 1.5rem;
+    }
+
+    .co-founder {
+        padding-left: 1.5rem;
+    }
+
+    .co-about {
+        padding-left: 0;
+    }
+}
+.space li a{
+    padding: 1px;
+}
